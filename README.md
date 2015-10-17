@@ -30,7 +30,7 @@ Please use sample/seed.sql
 
 ## Sample
 
-### SELECT
+### 1.SELECT
 
     S-- *
     F-- candies
@@ -43,6 +43,23 @@ SELECT *
 FROM candies
 ORDER BY id
 ```
+
+### 2.WHERE
+
+    S-- count(*)
+    F-- sales
+    W-- created_at >= '2015-01-01'
+    O-- created_at
+
+↓CandySql.make
+
+```sql
+SELECT count(*)
+FROM sales
+WHERE created_at >= '2015-01-01'
+ORDER BY created_at
+```
+
 
 ## Contributing
 
