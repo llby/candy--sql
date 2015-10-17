@@ -28,6 +28,22 @@ You should make tables in your database before do sample queries.
 Please use sample/seed.sql
 
 
+## Sample
+
+### SELECT
+
+    S-- *
+    F-- candies
+    O-- id
+
+↓CandySql.make
+
+```sql
+SELECT *
+FROM candies
+ORDER BY id
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at 
