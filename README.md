@@ -20,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ bin/make sample/sample1.csql
+
+You should make tables in your database before do sample queries.
+Please use sample/seed.sql
 
 
 ## Contributing
