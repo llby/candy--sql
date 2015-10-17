@@ -1,5 +1,7 @@
 # Candy--Sql
 
+[![Build Status](https://travis-ci.org/llby/candy--sql.svg)](https://travis-ci.org/llby/candy--sql)
+
 
 ## Installation
 
