@@ -61,6 +61,26 @@ WHERE created_at >= '2015-01-01'
 ORDER BY created_at
 ```
 
+### 3.JOIN
+
+    SL== sales
+    CD== candies[CD.id = SL.candy_id]
+    
+    S-- *, SL.num * CD.price
+    F-- SL =< CD
+    W-- CD.sweet > 2
+    O-- created_at
+
+↓CandySql.make
+
+```sql
+SELECT *, SL.num * CD.price
+FROM sales AS SL
+ INNER JOIN candies AS CD ON CD.id = SL.candy_id
+WHERE CD.sweet > 2
+ORDER BY created_at
+```
+
 
 ## Contributing
 
