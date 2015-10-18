@@ -1,5 +1,6 @@
 # Candy--Sql
 
+[![Gem Version](https://badge.fury.io/rb/candy--sql.svg)](https://badge.fury.io/rb/candy--sql)
 [![Build Status](https://travis-ci.org/llby/candy--sql.svg)](https://travis-ci.org/llby/candy--sql)
 
 
